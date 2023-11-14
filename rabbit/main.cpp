@@ -42,7 +42,7 @@ int main(int argc, char const *argv[])
     cin >> len;
     for (int i = 0; i < len; i++)
     {
-        plaintext.push_back(0);
+        plaintext.push_back(0);                 // plaintext: 0 0 0 0 0 0 0 0 0 0 0 0 ...
     }
     encrypt(plaintext);
 
